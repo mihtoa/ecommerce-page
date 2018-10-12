@@ -342,11 +342,6 @@ a {
     margin: 0 40px;
   }
 }
-@media (max-width: 767px) {
-  .banner {
-    padding-bottom: 0px;
-  }
-}
 
 // NEXT PREV BUTTONS
 .next,
@@ -413,6 +408,11 @@ a {
       max-width: 480px;
       margin: auto;
     }
+  }
+}
+@media (max-width: 767px) {
+  .highlights {
+    padding-top: 0px;
   }
 }
 
